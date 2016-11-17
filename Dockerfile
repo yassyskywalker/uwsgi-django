@@ -6,4 +6,4 @@ COPY /myapp /app
 RUN chown -R uwsgi /app
 COPY uwsgi.sh /uwsgi.sh
 RUN chmod +x /uwsgi.sh
-CMD [“./uwsgi.sh”, "start"]
+CMD [“uwsgi.sh”, "start"]
