@@ -13,7 +13,7 @@ SECRET_KEY = 'j8i-**yiguyf(13vkv@n)x&bu^xuemr&(_u8&$+1phbf6=h^$='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [u'multicontainer-env2.ap-northeast-1.elasticbeanstalk.com',]
+ALLOWED_HOSTS = [u'multicontainer-env2.ap-northeast-1.elasticbeanstalk.com','*']
 
 
 # Application definition
