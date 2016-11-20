@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python:3.4
 RUN groupadd -r uwsgi && useradd -r -g uwsgi uwsgi
 COPY /myapp/requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
